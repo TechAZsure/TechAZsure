@@ -1016,7 +1016,8 @@ hr{
     }
     .footer-left {
         width: 90%;
-        align-content: left;
+        align-content: center;
+        left: 2px;
     }
     .footer-left p{
         width:80%;
