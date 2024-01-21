@@ -719,6 +719,9 @@ h3{
     overflow: hidden;
     width: 100%;
 }
+.mention .row{
+    width:100;
+}
 .footer-right{
     width: 50%;
     position: relative;
