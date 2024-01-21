@@ -1019,6 +1019,7 @@ hr{
         align-content: center;
     .footer-left-col{
         left: 0;
+        position: relative;
     }
     .footer-left-col i{
         font-size:15px;
