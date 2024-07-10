@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.form-container h1 {
+    color: #007bff;
+}
+
+.form-container .form-control {
+    border-radius: 20px;
+}
+
+.form-container .btn-primary {
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-container p {
+    margin-top: 15px;
+}
+
+.form-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
