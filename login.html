@@ -46,6 +46,14 @@
             </div>
         </form>
     </div>
+
+    <script>
+        // Check if user has seen main website before redirecting back
+        if (!sessionStorage.getItem('seenMainWebsite')) {
+            // Redirect to main website if not seen
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 
 </html>
