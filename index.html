@@ -1412,11 +1412,18 @@
 
             });
         </script>
-
         <script>
-        setTimeout(function() {
-            window.location.href = "login.html"; // Redirect to login page after 10 seconds
-        }, 10000); // 10000 milliseconds = 10 seconds
-        </script>
+        // Check if user has already seen the main website
+        if (sessionStorage.getItem('seenMainWebsite')) {
+            // Redirect to login page immediately if already seen
+            window.location.href = "login.html";
+        } else {
+            // Otherwise, set flag after 10 seconds and redirect
+            setTimeout(function() {
+                sessionStorage.setItem('seenMainWebsite', true);
+                window.location.href = "login.html";
+            }, 10000); // 10000 milliseconds = 10 seconds
+        }
+    </script>
     </body>
 </html>
